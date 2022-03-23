@@ -8,6 +8,13 @@
 }
 
 /* --------
+   TYPO
+----------*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --------
    CLEARFIX
 ----------*/
 .clearfix{
@@ -22,6 +29,21 @@
 .container{
     max-width: 1200px;
     margin: auto;
+    position: relative;
+}
+
+.white-text-color{
+    color: white;
+}
+
+button{
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.button-color-white{
+    background-color: #fff;
 }
 
 /* --------
@@ -40,18 +62,21 @@ header img, nav{
     vertical-align: middle;
 }
 
-header img{
-    float: left;
-}
-
-header button{
-    float: right;
+header nav{
+    margin: 0 200px;
 }
 
 header a{
+    text-decoration: none;
     padding: 20px;
     display: inline-block;
+    color: inherit;
 }
+
+
 /* --------
     HERO
 ----------*/
+.hero{
+    background-image: url('../img/jumbo.png');
+}
