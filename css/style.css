@@ -29,6 +29,7 @@ body{
 .container{
     max-width: 1200px;
     margin: auto;
+    text-align: center;
 }
 
 .white-text-color{
@@ -39,6 +40,7 @@ button{
     padding: 8px 10px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .button-color-white{
@@ -50,6 +52,11 @@ button{
     color: white;
 }
 
+.button-color-purple{
+    background-color: #8ea1e1;
+    color: white;
+}
+
 .bg-img_header-hero{
     background-image: url('../img/jumbo.png');
     background-size: cover;
@@ -58,6 +65,12 @@ button{
 
 .section-bg-color{
     background-color: #f6f6f6;
+}
+
+.hero button, main button.button-color-purple{
+    margin: 30px 10px;
+    font-size: 16px;
+    padding: 10px 20px;
 }
 
 /* --------
@@ -105,12 +118,6 @@ header a{
     font-size: 20px;
 }
 
-.hero button{
-    margin: 30px 10px;
-    font-size: 16px;
-    padding: 10px 20px;
-}
-
 /* --------
     MAIN
 ----------*/
@@ -136,4 +143,9 @@ h2{
 p{
     margin-top: 40px;
 }
+
+h3{
+    font-size: 25px;
+}
+
 
