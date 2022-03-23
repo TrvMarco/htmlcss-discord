@@ -148,4 +148,43 @@ h3{
     font-size: 25px;
 }
 
+/* --------
+   FOOTER
+----------*/
+footer{
+    background-color: #23272a;
+    color: white;
+}
+
+.footer_sub-container{
+    padding: 100px 0;
+    text-align: left;
+    margin: auto;
+    width: 80%;
+}
+
+.footer-col_big{
+    width: 30%;
+    padding-right: 10%;
+}
+
+footer h3{
+    font-size: 28px;
+    color: #7289da;
+    vertical-align: middle;
+}
+
+.footer-col_big img{
+    height: 13px;
+    vertical-align: middle;
+}
+
+.language-selector{
+    margin: 15px 0;
+}
+
+.social-icons i{
+    margin-right: 20px;
+    font-size: 20px;
+}
 
