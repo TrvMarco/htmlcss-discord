@@ -166,13 +166,21 @@ footer{
 .footer-col_big{
     width: 30%;
     padding-right: 10%;
+    float: left;
+}
+
+footer h3, footer h4{
+    color:#7289da;
 }
 
 footer h3{
     font-size: 28px;
-    color: #7289da;
-    vertical-align: middle;
 }
+
+footer h4{
+    font-size: 18px;
+}
+
 
 .footer-col_big img{
     height: 13px;
@@ -180,7 +188,7 @@ footer h3{
 }
 
 .language-selector{
-    margin: 15px 0;
+    margin: 30px 0;
 }
 
 .social-icons i{
@@ -188,3 +196,20 @@ footer h3{
     font-size: 20px;
 }
 
+.footer-col_little{
+    float: left;
+    width: 17.5%;
+}
+
+.footer-col_little a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-col_little ul{
+    list-style: none;
+}
+
+.footer li{
+    margin-top: 20px;
+}
