@@ -107,6 +107,29 @@ header a{
     padding: 10px 20px;
 }
 
+/* --------
+    MAIN
+----------*/
+main .container{
+    padding: 100px 0;
+}
+.col-img{
+    width: 60%;
+    float: left;
+}
 
+.col-text{
+    width: 40%;
+    float: left;
+    padding: 50px;
+    text-align: left;
+}
 
+h2{
+    font-size: 40px;
+}
+
+p{
+    margin-top: 40px;
+}
 
