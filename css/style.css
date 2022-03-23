@@ -157,10 +157,12 @@ footer{
 }
 
 .footer_sub-container{
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 30px;
     text-align: left;
     margin: auto;
     width: 80%;
+    border-bottom: 1px solid #4a5882;
 }
 
 .footer-col_big{
@@ -204,12 +206,30 @@ footer h4{
 .footer-col_little a{
     text-decoration: none;
     color: inherit;
+    display: block;
+    margin-top: 10px;
 }
 
 .footer-col_little ul{
     list-style: none;
 }
 
-.footer li{
-    margin-top: 20px;
+.footer_sub-container-2{
+    margin-top: 30px;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    min-height: 100px;
+}
+
+.footer-logo{
+   position: absolute;
+   top: 20px;
+   left: 0px;
+}
+
+.footer-button{
+    position: absolute;
+    top: 20px;
+    right: 0px;
 }
